@@ -20,7 +20,6 @@ export function Header() {
     const resumeContent = `
 GARY LEE
 Full-Stack Developer | Hong Kong
-Email: gary.lee@example.com | Phone: +852 XXXX XXXX
 
 PROFESSIONAL SUMMARY
 Full-Stack Developer specializing in e-commerce (Shopify), scalable web applications, and AI-driven solutions.
@@ -111,12 +110,6 @@ KEY ACHIEVEMENTS
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             Reviews
-          </button>
-          <button 
-            onClick={() => scrollToSection('contact')}
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Contact
           </button>
         </nav>
 
