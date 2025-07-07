@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gary Lee Portfolio Design System - Professional Tech Colors */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 225 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 225 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 225 15% 15%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 217 91% 55%;
+
+    --secondary: 220 13% 95%;
+    --secondary-foreground: 225 15% 15%;
+
+    --muted: 220 13% 95%;
+    --muted-foreground: 215 25% 45%;
+
+    --accent: 262 83% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 60%;
+
+    /* Portfolio specific colors */
+    --hero-gradient: linear-gradient(135deg, hsl(217 91% 60%), hsl(262 83% 65%));
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 13% 98%));
+    --tech-blue: 217 91% 60%;
+    --tech-purple: 262 83% 65%;
+    --success: 142 76% 36%;
+    --warning: 38 92% 50%;
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 225 25% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 225 25% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 225 25% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 217 91% 65%;
+
+    --secondary: 225 25% 15%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 225 25% 15%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 262 83% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 225 25% 20%;
+    --input: 225 25% 20%;
+    --ring: 217 91% 60%;
+
+    /* Dark mode portfolio colors */
+    --hero-gradient: linear-gradient(135deg, hsl(217 91% 60%), hsl(262 83% 65%));
+    --card-gradient: linear-gradient(145deg, hsl(225 25% 10%), hsl(225 25% 12%));
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Portfolio Animation Keyframes */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.skill-slide-in {
+  opacity: 0;
+  transform: perspective(400px) rotateX(60deg) translateY(40px) scale(0.95);
+  animation: skill-3d-slide-in 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes skill-3d-slide-in {
+  to {
+    opacity: 1;
+    transform: perspective(400px) rotateX(0deg) translateY(0) scale(1);
+  }
+}
+
+.card-3d-up {
+  opacity: 0;
+  transform: perspective(600px) rotateX(60deg) translateY(40px) scale(0.95);
+  animation: card-3d-up-anim 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes card-3d-up-anim {
+  to {
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg) translateY(0) scale(1);
+  }
+}
+
+.card-3d-left {
+  opacity: 0;
+  transform: perspective(600px) rotateY(-60deg) translateX(-40px) scale(0.95);
+  animation: card-3d-left-anim 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes card-3d-left-anim {
+  to {
+    opacity: 1;
+    transform: perspective(600px) rotateY(0deg) translateX(0) scale(1);
+  }
+}
+
+.card-3d-right {
+  opacity: 0;
+  transform: perspective(600px) rotateY(60deg) translateX(40px) scale(0.95);
+  animation: card-3d-right-anim 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes card-3d-right-anim {
+  to {
+    opacity: 1;
+    transform: perspective(600px) rotateY(0deg) translateX(0) scale(1);
+  }
+}
+
+.skills-section-3d {
+  opacity: 0;
+  transform: perspective(800px) rotateX(45deg) translateY(60px) scale(0.96);
+  animation: skills-section-3d-anim 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes skills-section-3d-anim {
+  to {
+    opacity: 1;
+    transform: perspective(800px) rotateX(0deg) translateY(0) scale(1);
+  }
+}
