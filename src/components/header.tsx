@@ -68,6 +68,12 @@ export function Header() {
           >
             Reviews
           </button>
+          <button 
+            onClick={() => scrollToSection('contact')}
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Contact
+          </button>
         </nav>
 
         <div className="flex items-center space-x-4">
