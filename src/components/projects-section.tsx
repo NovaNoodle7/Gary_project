@@ -4,39 +4,102 @@ import { Button } from "@/components/ui/button"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "Krypto Buzz",
-      description: "KryptoBuzz is a website that helps you transfer the Ethereum from one wallet to another wallet. with the help of metamask you can carryout the successfull transaction.",
-      tech: ["React", "Socket", "Express", "Html5", "Css3", "Material-UI", "Javascript"],
-      image: "https://i.ibb.co/6r42XGx/Kryptobuzz.png",
-      liveUrl: "https://kryptobuzzbypooran.netlify.app/",
+      title: "E-Commerce Store (Shopify/React)",
+      description: "A modern e-commerce store built with React and Shopify, featuring seamless shopping experience and custom UI/UX.",
+      tech: ["React.js", "Shopify", "JavaScript", "UI/UX"],
+      image: "../public/sites/Screenshot_15.png",
+      liveUrl: "https://www.allbirds.com/"
     },
     {
-      title: "Chess Multiplayer",
-      description: " Chess Multiplayer is a website where you can play chess with your loved ones that are in any part of the world just by sharing a simple link. Also you can chat while playing chess.",
-      tech: ["React", "Socketdot", "Express", "HTML5", "CSS3", "Material-UI", "Javascript"],
-      image: "https://i.ibb.co/Gddr29J/chess-multiplayer.png",
-      liveUrl: "https://chessmultiplayer.netlify.app/",
+      title: "Python SaaS Platform",
+      description: "A scalable SaaS platform for chefs and food businesses, built with Python and modern web technologies.",
+      tech: ["Python", "SaaS", "Web App"],
+      image: "../public/sites/Screenshot_1.png",
+      liveUrl: "https://chefpost.com/"
     },
     {
-      title: "Sudoku Solver",
-      description: "Sudoku Solver is a Website that gives you the Solution of EverySudoko Problem that you input and also you can visualize each step of how the sudoku is getting solved.",
-      tech: ["React", "HTML5", "Javascript", "Json", "CSS3", "Material-UI"],
-      image: "https://i.ibb.co/GRmXtzD/Sudoku.png",
-      liveUrl: "https://csb-ks3rf.netlify.app/",
+      title: "WordPress Business Website",
+      description: "A professional business website for AV Equipment, built on WordPress with custom design and SEO optimization.",
+      tech: ["WordPress", "SEO", "Custom Design"],
+      image: "../public/sites/Screenshot_2.png",
+      liveUrl: "https://avequipment.com.au/"
     },
     {
-      title: "Chat Application",
-      description: "Chat-application is an website where you can have live chatting with your loved ones and you can create your own custom room according to the requirement.",
-      tech: ["React", "HTML5", "Socket", "CSS3", "Express", "React-Router", "Javascript"],
-      image: "https://i.ibb.co/CJbbtVf/chat-application.png",
-      liveUrl: "https://chat-app-web-socket.netlify.app/",
+      title: "Booking Platform",
+      description: "A modern booking platform for flights, built with React and Vercel, featuring real-time availability and secure payments.",
+      tech: ["React.js", "Vercel", "Booking", "Payments"],
+      image: "../public/sites/Screenshot_3.png",
+      liveUrl: "https://flight-work.vercel.app"
     },
     {
-      title: "CovidTracker(India)",
-      description: "Covid Tracker is website that shows you the complete data of the Covid-19 Cases of Every State distributed in three sections Active, Recovered and Deaths.",
-      tech: ["React", "HTML5", "CSS3", "Mertrial-UI", "Javascript", "Json"],
-      image: "https://i.ibb.co/mFHC9kk/covidtracker.png",
-      liveUrl: "https://covid-19-tracker-indiabypooran.netlify.app/",
+      title: "LLM/AI SaaS Platform",
+      description: "A next-generation AI platform leveraging LLMs for business automation and insights.",
+      tech: ["AI", "LLM", "SaaS"],
+      image: "../public/sites/Screenshot_4.png",
+      liveUrl: "https://stru.ai"
+    },
+    {
+      title: "Blockchain/Crypto Dashboard",
+      description: "A crypto dashboard for NFT and blockchain analytics, built with modern web technologies.",
+      tech: ["Blockchain", "Crypto", "Dashboard"],
+      image: "../public/sites/Screenshot_5.png",
+      liveUrl: "https://game.cryptoland.io/"
+    },
+    {
+      title: "Hyper Healthcare",
+      description: "Healthcare services website with appointment booking and patient resources.",
+      tech: ["WordPress", "Booking", "Healthcare"],
+      image: "../public/sites/Screenshot_6.png",
+      liveUrl: "https://www.hyper-healthcare.com/"
+    },
+    {
+      title: "The SBA Shop",
+      description: "E-commerce platform for business supplies and accessories.",
+      tech: ["WordPress", "E-Commerce", "WooCommerce"],
+      image: "../public/sites/Screenshot_7.png",
+      liveUrl: "https://thesbashop.com/"
+    },
+    {
+      title: "NOV8 Tech",
+      description: "Technology solutions provider with a modern, responsive business site.",
+      tech: ["WordPress", "Business", "Responsive Design"],
+      image: "../public/sites/Screenshot_8.png",
+      liveUrl: "https://nov8.tech/"
+    },
+    {
+      title: "Golden Summit Forest",
+      description: "Forestry and environmental services company website.",
+      tech: ["WordPress", "Business", "Environmental"],
+      image: "../public/sites/Screenshot_9.png",
+      liveUrl: "https://goldensummitforest.com/"
+    },
+    {
+      title: "Clean Wash Laundry",
+      description: "Laundry service platform with online booking and service management.",
+      tech: ["WordPress", "Booking", "Service"],
+      image: "../public/sites/Screenshot_10.png",
+      liveUrl: "https://cleanwashlaundry.com/"
+    },
+    {
+      title: "Drink Perfy",
+      description: "Modern beverage e-commerce store with custom branding and online sales.",
+      tech: ["Shopify", "E-Commerce", "Branding"],
+      image: "../public/sites/Screenshot_12.png",
+      liveUrl: "https://drinkperfy.com/"
+    },
+    {
+      title: "Kokako",
+      description: "Coffee roastery and café website with e-commerce and storytelling.",
+      tech: ["Shopify", "E-Commerce", "Storytelling"],
+      image: "../public/sites/Screenshot_14.png",
+      liveUrl: "https://www.kokako.co.nz/"
+    },
+    {
+      title: "Custo",
+      description: "SaaS platform for custom business solutions.",
+      tech: ["SaaS", "Business", "Web App"],
+      image: "../public/sites/Screenshot_15.png",
+      liveUrl: "https://custo.io/"
     }
   ]
 

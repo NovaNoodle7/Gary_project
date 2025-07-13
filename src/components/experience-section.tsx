@@ -4,35 +4,39 @@ export function ExperienceSection() {
   const experiences = [
     {
       title: "Freelance Full-Stack Developer",
-      company: "Remote",
-      period: "Jan 2023 – Present",
+      company: "Canada (Remote)",
+      period: "May 2024 – Present",
       achievements: [
-        "Developed custom Shopify stores with integrated Python/Node.js backends, improving scalability for 10+ clients",
-        "Built real-time analytics dashboards (React + Python APIs) to track KPIs, leading to data-driven decision-making",
-        "Deployed Node.js microservices for payment processing and inventory management, reducing checkout errors by 20%"
+        "Delivered 7+ web applications for clients across healthcare, e-commerce, and SaaS startups using React, Node.js, and AWS.",
+        "Reduced development costs by 30% for clients by implementing reusable component libraries and CI/CD pipelines (GitHub Actions).",
+        "Built a real-time analytics dashboard with TypeScript and WebSockets, improving data visibility for a fintech client.",
+        "Migrated a legacy PHP system to Serverless AWS (Lambda + API Gateway), cutting infrastructure costs by 40%."
       ],
       color: "from-blue-500 to-purple-600"
     },
     {
       title: "Full-Stack Developer",
-      company: "TechNova Ltd",
-      location: "Central District, Hong Kong",
-      period: "Jan 2021 – Dec 2022",
+      company: "ProServeIT Corporation",
+      location: "Mississauga, ON, Canada",
+      period: "May 2022 – Apr 2024",
       achievements: [
-        "Led migration of legacy systems to React + Django, improving page load speed by 35%",
-        "Designed RESTful APIs to sync Shopify stores with ERP systems, eliminating manual data entry",
-        "Implemented JWT authentication for customer portals, enhancing security and reducing fraud incidents"
+        "Developed cloud-native applications for enterprise clients using Azure, React, and .NET Core, improving scalability by 50%.",
+        "Led a team of 4 developers to deliver a digital transformation project for a Fortune 500 client, reducing manual processes by 70%.",
+        "Optimized APIs: Reduced average response time from 800ms to 200ms through caching (Redis) and query optimization.",
+        "Collaborated with cybersecurity teams to implement OAuth2.0 and role-based access control (RBAC) for compliance."
       ],
       color: "from-purple-500 to-pink-600"
     },
     {
-      title: "Junior Web Developer", 
-      company: "SmartDigital Studio",
-      location: "Hong Kong",
-      period: "Jan 2020 – Dec 2020",
+      title: "Junior Full-Stack Developer",
+      company: "CompuVision",
+      location: "Canada",
+      period: "Oct 2019 – Jul 2021",
       achievements: [
-        "Contributed to MERN stack applications, optimizing frontend performance by 25%",
-        "Automated data processing using Python scripts, saving 15+ hours/month for the team"
+        "Built and maintained 15+ internal tools using Vue.js, Python (Django), and Docker, saving 20+ hours/week in manual workflows.",
+        "Modernized legacy systems: Refactored a monolithic app into microservices, improving deployment speed by 60%.",
+        "Automated testing pipelines (Jenkins), reducing production bugs by 35%.",
+        "Worked directly with SMEs to translate business needs into technical specs (e.g., inventory management app)."
       ],
       color: "from-green-500 to-blue-600"
     }
@@ -40,28 +44,40 @@ export function ExperienceSection() {
 
   const keyAchievements = [
     {
-      title: "Revenue Growth",
-      description: "Developed a Shopify AI recommender system (Python + React) that increased average order value by 30%",
-      metric: "+30%",
-      color: "text-green-500"
-    },
-    {
-      title: "Performance Optimization", 
-      description: "Reduced API latency by 40% by refactoring Node.js microservices for a high-traffic e-commerce platform",
-      metric: "-40%",
+      title: "Performance & Optimization",
+      description: "Reduced API Latency by 70% at ProServeIT by implementing Redis caching and query optimization, saving $50K+ in cloud costs annually.",
+      metric: "-70%",
       color: "text-blue-500"
     },
     {
-      title: "UX Improvement",
-      description: "Decreased cart abandonment by 25% by revamping checkout flows (Shopify Liquid + React)", 
-      metric: "-25%",
+      title: "App Load Times",
+      description: "Improved App Load Times by 40% for 3+ freelance clients through code-splitting (React) and CDN integration.",
+      metric: "-40%",
+      color: "text-green-500"
+    },
+    {
+      title: "Project Leadership",
+      description: "Led Digital Transformation for Fortune 500 client at ProServeIT, migrating legacy systems to cloud native architecture (Azure + .NET Core), reducing operational costs by 35%.",
+      metric: "-35%",
       color: "text-purple-500"
     },
     {
-      title: "Process Automation",
-      description: "Built a Python inventory script that saved 15+ hours/month in manual reporting",
-      metric: "15+ hrs/mo",
+      title: "Mentorship & Productivity",
+      description: "Mentored 5 Junior Developers across roles, improving team productivity by 25% through paired programming and Agile coaching.",
+      metric: "+25%",
       color: "text-orange-500"
+    },
+    {
+      title: "Innovation & Problem Solving",
+      description: "Built Real-Time Analytics Dashboard (TypeScript/WebSockets) for fintech client, increasing user engagement by 50%.",
+      metric: "+50%",
+      color: "text-pink-500"
+    },
+    {
+      title: "Testing Automation",
+      description: "Automated Testing Pipelines at CompuVision, cutting bug reports by 35% and accelerating releases by 2x.",
+      metric: "-35%",
+      color: "text-yellow-500"
     }
   ]
 
