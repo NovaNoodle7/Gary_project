@@ -7,11 +7,11 @@ import 'swiper/css/pagination';
 
 export function AboutSection() {
   const skills = [
-    { category: "Frontend", items: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3/Sass", "React.js", "Next.js", "Vue.js", "Angular.js", "Redux", "Webpack", "Vite", "Storybook", "Figma (UI/UX)"] },
-    { category: "Backend", items: ["Node.js", "Python (Django/Flask)", "C# (.NET Core)", "Express.js", "NestJS", "GraphQL", "WebSocket"] },
-    { category: "Databases", items: ["PostgreSQL", "MongoDB", "Firebase", "Redis (caching)"] },
-    { category: "Cloud & DevOps", items: ["AWS (Lambda, EC2, S3, RDS)", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform", "CI/CD (GitHub Actions, Jenkins, Azure Pipelines)"] },
-    { category: "Soft Skills", items: ["Client Communication", "Team Leadership", "Time Management", "Adaptability"] },
+    { category: "Frontend Development", items: ["React.js", "Next.js", "Vue.js", "Angular.js", "TypeScript (ES6+)", "HTML5", "CSS3", "Sass", "Redux", "Webpack", "Vite", "Storybook"] },
+    { category: "Backend Development", items: ["Node.js (Django, Flask)", ".NET Core (C#)", "Express.js", "REST", "GraphQL", "WebSockets"] },
+    { category: "Cloud & DevOps", items: ["AWS (Lambda, EC2, S3, RDS)", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "Jenkins", "Azure Pipelines"] },
+    { category: "Databases", items: ["PostgreSQL", "MongoDB", "Firebase", "Redis"] },
+    { category: "Soft Skills", items: ["Client Communication", "Team Leadership", "Technical Mentorship", "Agile Delivery", "Time Management", "Rapid Stack Switch"] },
     { category: "Languages", items: ["Cantonese (Native)", "English (Professional)"] },
   ]
 
@@ -22,7 +22,7 @@ export function AboutSection() {
           About <span className="bg-hero-gradient bg-clip-text text-transparent">Me</span>
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Passionate about building scalable web applications and driving business growth through technology. I love the intersection of clean front-end design and high-performance back-end systems. Currently interested in AI/ML, open source, and lifelong learning.
+          Senior Full-Stack Developer with 5 years of experience building scalable web applications using React, Node.js, and Python. Delivered enterprise-grade solutions across cloud platforms (AWS/Azure), achieving a 70% reduction in latency, 35% fewer bugs (through CI/CD automation), and a 50%+ increase in deployment speed via microservice refactoring. Experienced in leading client-facing teams, classifying consulting, and mentoring junior developers. Passionate about clean architecture, performance optimization, and exploring AI/ML technologies.
         </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -32,13 +32,13 @@ export function AboutSection() {
               <h3 className="text-2xl font-semibold mb-6 text-primary">Professional Summary</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Senior Full-Stack Developer with 5 years of experience developing scalable web applications. Graduated from the University of Toronto Mississauga (UTM). Expert in JavaScript/TypeScript, React, Node.js, Python, and cloud platforms (AWS/Azure). I value efficiency, innovation, and lifelong learning.
+                  Senior Full-Stack Developer with 5 years of experience building scalable web applications using React, Node.js, and Python. Delivered enterprise-grade solutions across cloud platforms (AWS/Azure), achieving a 70% reduction in latency, 35% fewer bugs (through CI/CD automation), and a 50%+ increase in deployment speed via microservice refactoring.
                 </p>
                 <p>
-                  I enjoy solving complex problems, mentoring junior developers, and leading agile teams. Outside of coding, I love hiking, contributing to open source, gaming, and exploring new technology trends.
+                  Experienced in leading client-facing teams, classifying consulting, and mentoring junior developers. Passionate about clean architecture, performance optimization, and exploring AI/ML technologies.
                 </p>
                 <p>
-                  Based in Mississauga, Ontario, Canada. Open to remote and global opportunities.
+                  Based in Mississauga (Ontario), Canada. Open to remote and global opportunities.
                 </p>
               </div>
             </CardContent>
@@ -90,10 +90,22 @@ export function AboutSection() {
           <CardContent className="p-8">
             <h3 className="text-2xl font-semibold mb-6 text-primary">Education</h3>
             <div className="space-y-2 text-muted-foreground">
-              <div className="font-bold">Bachelor of Science (B.Sc.) in Computer Science</div>
-              <div>University of Toronto Mississauga (UTM) | 09/2015 - 06/2019</div>
-              <div>Relevant Coursework: Algorithms, Software Engineering, Database, Web Development.</div>
-              <div>Thesis/Project: Developed a ML-based recommendation engine using Python.</div>
+              <div className="font-bold">Bachelor of Science in Computer Science</div>
+              <div>University of Toronto Mississauga (UTM), Canada | September 2015 – June 2019</div>
+              <div>Relevant Coursework: Algorithms, Software Engineering, Web Development</div>
+              <div>Capstone Project: Built ML-based recommendation engine in Python</div>
+              <div>Gained hands-on experience with AWS cloud architecture and deployment via academic AWS labs</div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+      {/* Interests Section */}
+      <div className="mt-16 max-w-2xl mx-auto animate-fade-in-up">
+        <Card className="bg-card-gradient border-0 shadow-lg">
+          <CardContent className="p-8">
+            <h3 className="text-2xl font-semibold mb-6 text-primary">Interests</h3>
+            <div className="space-y-2 text-muted-foreground">
+              <div>Cloud & AI/ML integration in web development, optimizing cloud infrastructure for cost/performance balance, and mentoring junior developers. Outside of work: hiking, open source, gaming, and reading research papers/books to forecast tech trends.</div>
             </div>
           </CardContent>
         </Card>
