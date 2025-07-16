@@ -4,26 +4,26 @@ export function ExperienceSection() {
   const experiences = [
     {
       title: "Freelance Full-Stack Developer",
-      company: "Canada (Remote)",
+      company: "Remote, Canada",
       period: "May 2024 – Present",
       achievements: [
-        "Delivered 7+ web applications for clients across healthcare, e-commerce, and SaaS startups using React, Node.js, and AWS.",
-        "Reduced development costs by 30% for clients by implementing reusable component libraries and CI/CD pipelines (GitHub Actions).",
-        "Built a real-time analytics dashboard with TypeScript and WebSockets, improving data visibility for a fintech client.",
-        "Migrated a legacy PHP system to Serverless AWS (Lambda + API Gateway), cutting infrastructure costs by 40%."
+        "Delivered 7+ web applications for clients in healthcare, e-commerce, and SaaS",
+        "Built reusable component libraries and CI/CD pipelines, reducing dev cost by 30%",
+        "Developed real-time analytics dashboards using TypeScript & WebSockets for fintech client",
+        "Migrated legacy PHP system to serverless AWS (Lambda + API Gateway), cutting infrastructure costs by 40%"
       ],
       color: "from-blue-500 to-purple-600"
     },
     {
       title: "Full-Stack Developer",
       company: "ProServeIT Corporation",
-      location: "Mississauga, ON, Canada",
+      location: "Mississauga, Canada",
       period: "May 2022 – Apr 2024",
       achievements: [
-        "Developed cloud-native applications for enterprise clients using Azure, React, and .NET Core, improving scalability by 50%.",
-        "Led a team of 4 developers to deliver a digital transformation project for a Fortune 500 client, reducing manual processes by 70%.",
-        "Optimized APIs: Reduced average response time from 800ms to 200ms through caching (Redis) and query optimization.",
-        "Collaborated with cybersecurity teams to implement OAuth2.0 and role-based access control (RBAC) for compliance."
+        "Reduced API latency by 70% (800ms → 200ms) via Redis/caching and optimization",
+        "Led a team of 4 developers to deliver Fortune 500 digital transformation project",
+        "Implemented OAuth 2.0 + RBAC to enhance app-wide data security/compliance",
+        "Guided digital transformation and optimization"
       ],
       color: "from-purple-500 to-pink-600"
     },
@@ -31,12 +31,12 @@ export function ExperienceSection() {
       title: "Junior Full-Stack Developer",
       company: "CompuVision",
       location: "Canada",
-      period: "Oct 2019 – Jul 2021",
+      period: "October 2019 – April 2022",
       achievements: [
-        "Built and maintained 15+ internal tools using Vue.js, Python (Django), and Docker, saving 20+ hours/week in manual workflows.",
-        "Modernized legacy systems: Refactored a monolithic app into microservices, improving deployment speed by 60%.",
-        "Automated testing pipelines (Jenkins), reducing production bugs by 35%.",
-        "Worked directly with SMEs to translate business needs into technical specs (e.g., inventory management app)."
+        "Refactored monolithic app into microservices, speeding deployment by 60%",
+        "Automated testing with Jenkins, reducing production bugs by 35%",
+        "Built and maintained 15+ tools using Vue, Django, and Docker (reduced manual workload by 20+ hours/week)",
+        "Worked with SMEs to turn business requirements into deployable software"
       ],
       color: "from-green-500 to-blue-600"
     }

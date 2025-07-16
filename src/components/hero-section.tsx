@@ -21,10 +21,10 @@ export function HeroSection() {
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-          Senior Full-Stack Developer | Web Specialist — Mississauga, Ontario, Canada
+          Senior Full-Stack Developer | Web Specialist — Mississauga (Ontario), Canada
         </p>
         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Passionate full-stack developer with 5 years of experience building scalable web applications. Expert in JavaScript/TypeScript, React, Node.js, Python, and cloud platforms (AWS/Azure). I love the intersection of clean front-end design and high-performance back-end systems. Currently interested in AI/ML and open source. Let’s build something impactful together!
+          Senior Full-Stack Developer with 5 years of experience building scalable web applications using React, Node.js, and Python. Delivered enterprise-grade solutions across cloud platforms (AWS/Azure), achieving a 70% reduction in latency, 35% fewer bugs (through CI/CD automation), and a 50%+ increase in deployment speed via microservice refactoring. Experienced in leading client-facing teams, classifying consulting, and mentoring junior developers. Passionate about clean architecture, performance optimization, and exploring AI/ML technologies.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in">
           <Button 

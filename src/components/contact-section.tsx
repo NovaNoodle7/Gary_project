@@ -55,6 +55,8 @@ export function ContactSection() {
   return (
     <section id="contact" className="py-16 px-4 max-w-2xl mx-auto">
       <h2 className="text-3xl font-bold mb-4 text-center">Contact</h2>
+      <p className="mb-2 text-center text-muted-foreground">Email: <a href="mailto:austin.rider0202@gmail.com" className="underline">austin.rider0202@gmail.com</a></p>
+      <p className="mb-6 text-center text-muted-foreground">Location: Mississauga (Ontario), Canada</p>
       <p className="mb-8 text-center text-muted-foreground">Send me a message and it will be delivered to my Discord!</p>
       <form onSubmit={handleSubmit} className="space-y-6 bg-card p-6 rounded-lg shadow">
         <div>
