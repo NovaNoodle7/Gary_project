@@ -57,7 +57,7 @@ export function ContactSection() {
       <h2 className="text-3xl font-bold mb-4 text-center">Contact</h2>
       <p className="mb-2 text-center text-muted-foreground">Email: <a href="mailto:austin.rider0202@gmail.com" className="underline">austin.rider0202@gmail.com</a></p>
       <p className="mb-6 text-center text-muted-foreground">Location: Mississauga (Ontario), Canada</p>
-      <p className="mb-8 text-center text-muted-foreground">Send me a message and it will be delivered to my Discord!</p>
+      <p className="mb-8 text-center text-muted-foreground">Let’s connect! Whether you have a project in mind, want to collaborate, or just want to say hello, feel free to reach out below.</p>
       <form onSubmit={handleSubmit} className="space-y-6 bg-card p-6 rounded-lg shadow">
         <div>
           <label className="block mb-1 font-medium">Name</label>

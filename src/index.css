@@ -36,7 +36,7 @@
     --ring: 217 91% 60%;
 
     /* Portfolio specific colors */
-    --hero-gradient: linear-gradient(135deg, hsl(217 91% 60%), hsl(262 83% 65%));
+    --hero-gradient: linear-gradient(120deg, hsl(217 91% 60%) 0%, hsl(262 83% 65%) 40%, hsl(291 64% 65%) 70%, hsl(174 77% 70%) 100%);
     --card-gradient: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 13% 98%));
     --tech-blue: 217 91% 60%;
     --tech-purple: 262 83% 65%;
@@ -245,5 +245,52 @@
   to {
     opacity: 1;
     transform: perspective(800px) rotateX(0deg) translateY(0) scale(1);
+  }
+}
+
+/* Blurred blob styles for hero section */
+.hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(48px);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 1;
+  animation: blob-move 16s ease-in-out infinite alternate;
+}
+.hero-blob-1 {
+  width: 340px;
+  height: 340px;
+  top: 10%;
+  left: 5%;
+  background: radial-gradient(circle at 30% 30%, hsl(217 91% 60%) 60%, transparent 100%);
+  animation-delay: 0s;
+}
+.hero-blob-2 {
+  width: 260px;
+  height: 260px;
+  bottom: 8%;
+  right: 8%;
+  background: radial-gradient(circle at 70% 70%, hsl(291 64% 65%) 60%, transparent 100%);
+  animation-delay: 4s;
+}
+.hero-blob-3 {
+  width: 200px;
+  height: 200px;
+  top: 40%;
+  right: 18%;
+  background: radial-gradient(circle at 50% 50%, hsl(174 77% 70%) 60%, transparent 100%);
+  animation-delay: 8s;
+}
+
+@keyframes blob-move {
+  0% {
+    transform: scale(1) translateY(0) translateX(0);
+  }
+  50% {
+    transform: scale(1.15) translateY(-30px) translateX(20px);
+  }
+  100% {
+    transform: scale(1) translateY(0) translateX(0);
   }
 }

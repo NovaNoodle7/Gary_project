@@ -13,6 +13,10 @@ export function HeroSection() {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-hero-gradient opacity-10 animate-gradient-shift"></div>
+      {/* Animated blurred blobs */}
+      <div className="hero-blob hero-blob-1"></div>
+      <div className="hero-blob hero-blob-2"></div>
+      <div className="hero-blob hero-blob-3"></div>
       
       <div className="container mx-auto px-4 text-center z-10">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -21,10 +25,13 @@ export function HeroSection() {
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-          Senior Full-Stack Developer | Web Specialist — Mississauga (Ontario), Canada
+          Senior Web Developer — Mississauga (Ontario), Canada
+        </p>
+        <p className="text-lg text-muted-foreground mb-2 max-w-2xl mx-auto">
+          <a href="mailto:austin.rider0202@gmail.com" className="underline">austin.rider0202@gmail.com</a> | <a href="https://austin202-portfolio.vercel.app" className="underline" target="_blank" rel="noopener noreferrer">austin202-portfolio.vercel.app</a>
         </p>
         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Senior Full-Stack Developer with 5 years of experience building scalable web applications using React, Node.js, and Python. Delivered enterprise-grade solutions across cloud platforms (AWS/Azure), achieving a 70% reduction in latency, 35% fewer bugs (through CI/CD automation), and a 50%+ increase in deployment speed via microservice refactoring. Experienced in leading client-facing teams, classifying consulting, and mentoring junior developers. Passionate about clean architecture, performance optimization, and exploring AI/ML technologies.
+          Building high-impact digital solutions for modern businesses. 5+ years of experience in React, Node.js, AWS, and cloud architecture. I help companies scale, optimize, and innovate through robust engineering and a passion for results.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in">
           <Button 

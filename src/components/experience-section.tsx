@@ -3,40 +3,37 @@ import { Card, CardContent } from "@/components/ui/card"
 export function ExperienceSection() {
   const experiences = [
     {
-      title: "Freelance Full-Stack Developer",
+      title: "Freelance Web Developer",
       company: "Remote, Canada",
       period: "May 2024 – Present",
       achievements: [
-        "Delivered 7+ web applications for clients in healthcare, e-commerce, and SaaS",
-        "Built reusable component libraries and CI/CD pipelines, reducing dev cost by 30%",
-        "Developed real-time analytics dashboards using TypeScript & WebSockets for fintech client",
-        "Migrated legacy PHP system to serverless AWS (Lambda + API Gateway), cutting infrastructure costs by 40%"
+        "Developed 7+ web apps for healthcare, e-commerce, and SaaS startups using React, Node.js, AWS Lambda, and TypeScript.",
+        "Built real-time analytics dashboards (TypeScript + WebSockets) for fintech clients, improving data visibility.",
+        "Reduced long-term maintenance costs by 30% through reusable component libraries and CI/CD pipelines.",
       ],
       color: "from-blue-500 to-purple-600"
     },
     {
-      title: "Full-Stack Developer",
-      company: "ProServeIT Corporation",
-      location: "Mississauga, Canada",
-      period: "May 2022 – Apr 2024",
+      title: "Senior Web Developer – ProServeIT Corporation",
+      company: "Mississauga, Canada",
+      period: "May 2022 – April 2024",
       achievements: [
-        "Reduced API latency by 70% (800ms → 200ms) via Redis/caching and optimization",
-        "Led a team of 4 developers to deliver Fortune 500 digital transformation project",
-        "Implemented OAuth 2.0 + RBAC to enhance app-wide data security/compliance",
-        "Guided digital transformation and optimization"
+        "Scaled Fortune 500 client’s cloud infrastructure (Azure + React), boosting scalability by 50%.",
+        "Optimized API/process times by 75% (800ms → 200ms) with Redis caching and query tuning.",
+        "Implemented OAuth2.0 and RBAC for compliance, partnering with cybersecurity teams to audit data protection.",
+        "Led a team of 4 developers to deliver digital transformation projects on time and within budget."
       ],
       color: "from-purple-500 to-pink-600"
     },
     {
-      title: "Junior Full-Stack Developer",
-      company: "CompuVision",
-      location: "Canada",
+      title: "Junior Web Developer – CompuVision",
+      company: "Canada",
       period: "October 2019 – April 2022",
       achievements: [
-        "Refactored monolithic app into microservices, speeding deployment by 60%",
-        "Automated testing with Jenkins, reducing production bugs by 35%",
-        "Built and maintained 15+ tools using Vue, Django, and Docker (reduced manual workload by 20+ hours/week)",
-        "Worked with SMEs to turn business requirements into deployable software"
+        "Refactored monolithic app into microservices, accelerating deployment by 60%.",
+        "Migrated legacy PHP systems to AWS serverless, cutting infrastructure costs by 40%.",
+        "Automated 15+ internal tools (Vue.js, Django), saving 20+ hours/week in manual workflows.",
+        "Reduced production bugs by 35% by automating testing pipelines with Jenkins."
       ],
       color: "from-green-500 to-blue-600"
     }
@@ -44,40 +41,40 @@ export function ExperienceSection() {
 
   const keyAchievements = [
     {
-      title: "Performance & Optimization",
-      description: "Reduced API Latency by 70% at ProServeIT by implementing Redis caching and query optimization, saving $50K+ in cloud costs annually.",
+      title: "Cloud Optimization",
+      description: "Scaled Fortune 500 client’s infrastructure, reducing manual processes by 70% (Azure, .NET Core).",
       metric: "-70%",
       color: "text-blue-500"
     },
     {
-      title: "App Load Times",
-      description: "Improved App Load Times by 40% for 3+ freelance clients through code-splitting (React) and CDN integration.",
-      metric: "-40%",
+      title: "API Performance",
+      description: "Improved API/process times by 75% (800ms → 200ms) at ProServeIT.",
+      metric: "-75%",
       color: "text-green-500"
     },
     {
-      title: "Project Leadership",
-      description: "Led Digital Transformation for Fortune 500 client at ProServeIT, migrating legacy systems to cloud native architecture (Azure + .NET Core), reducing operational costs by 35%.",
-      metric: "-35%",
+      title: "Serverless Migration",
+      description: "Migrated legacy PHP systems to AWS, cutting infra costs by 40%.",
+      metric: "-40%",
       color: "text-purple-500"
     },
     {
-      title: "Mentorship & Productivity",
-      description: "Mentored 5 Junior Developers across roles, improving team productivity by 25% through paired programming and Agile coaching.",
-      metric: "+25%",
+      title: "Automation & Productivity",
+      description: "Automated 15+ internal tools, saving 20+ hours/week at CompuVision.",
+      metric: "+20h/wk",
       color: "text-orange-500"
     },
     {
-      title: "Innovation & Problem Solving",
-      description: "Built Real-Time Analytics Dashboard (TypeScript/WebSockets) for fintech client, increasing user engagement by 50%.",
-      metric: "+50%",
-      color: "text-pink-500"
-    },
-    {
       title: "Testing Automation",
-      description: "Automated Testing Pipelines at CompuVision, cutting bug reports by 35% and accelerating releases by 2x.",
+      description: "Reduced bugs by 35% via Jenkins CI/CD pipelines.",
       metric: "-35%",
       color: "text-yellow-500"
+    },
+    {
+      title: "Team Leadership",
+      description: "Led and mentored teams to deliver secure, scalable solutions.",
+      metric: "4+ devs",
+      color: "text-pink-500"
     }
   ]
 
@@ -112,9 +109,6 @@ export function ExperienceSection() {
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                         <div>
                           <h3 className="text-xl font-semibold text-primary">{exp.title}</h3>
-                          <p className="text-lg text-muted-foreground">
-                            {exp.company} {exp.location && `• ${exp.location}`}
-                          </p>
                         </div>
                         <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full mt-2 md:mt-0 self-start">
                           {exp.period}

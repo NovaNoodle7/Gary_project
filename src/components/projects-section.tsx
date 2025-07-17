@@ -91,14 +91,14 @@ export function ProjectsSection() {
       title: "Kokako",
       description: "Coffee roastery and café website with e-commerce and storytelling.",
       tech: ["Shopify", "E-Commerce", "Storytelling"],
-      image: "../public/sites/Screenshot_14.png",
+      image: "../public/sites/Screenshot_13.png",
       liveUrl: "https://www.kokako.co.nz/"
     },
     {
       title: "Custo",
       description: "SaaS platform for custom business solutions.",
       tech: ["SaaS", "Business", "Web App"],
-      image: "../public/sites/Screenshot_15.png",
+      image: "../public/sites/Screenshot_14.png",
       liveUrl: "https://custo.io/"
     }
   ]
