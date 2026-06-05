@@ -21,14 +21,14 @@ export function HeroSection() {
       <div className="container mx-auto px-4 text-center z-10">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
           <span className="bg-hero-gradient bg-clip-text text-transparent">
-            Austin Rider
+            Austin Lim
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-4">
           Senior Web Developer — Mississauga (Ontario), Canada
         </p>
         <p className="text-lg text-muted-foreground mb-2 max-w-2xl mx-auto">
-          <a href="mailto:austin.rider0202@gmail.com" className="underline">austin.rider0202@gmail.com</a> | <a href="https://austin202-portfolio.vercel.app" className="underline" target="_blank" rel="noopener noreferrer">austin202-portfolio.vercel.app</a>
+          <a href="mailto:austin.lim0202@gmail.com" className="underline">austin.lim0202@gmail.com</a> | <a href="https://austin202-portfolio.vercel.app" className="underline" target="_blank" rel="noopener noreferrer">austin202-portfolio.vercel.app</a>
         </p>
         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
           Building high-impact digital solutions for modern businesses. 6+ years of experience in React, Node.js, AWS, and cloud architecture. I help companies scale, optimize, and innovate through robust engineering and a passion for results.
