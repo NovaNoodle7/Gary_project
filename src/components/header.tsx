@@ -75,17 +75,6 @@ export function Header() {
             Contact
           </button>
         </nav>
-
-        <div className="flex items-center space-x-4">
-          <Button 
-            onClick={downloadResume}
-            className="hidden sm:flex items-center space-x-2 bg-hero-gradient hover:opacity-90 transition-opacity"
-          >
-            <Download className="h-4 w-4" />
-            <span>Resume</span>
-          </Button>
-          <ThemeToggle />
-        </div>
       </div>
     </header>
   )
