@@ -8,7 +8,7 @@ export function ReviewsSection() {
       role: "E-commerce Director",
       company: "TechMart Solutions",
       rating: 5,
-      review: "Gary transformed our Shopify store with his custom Python backend integration. The real-time analytics dashboard he built has been instrumental in our 40% revenue increase. Outstanding technical expertise and project management.",
+      review: "Austin transformed our Shopify store with his custom Python backend integration. The real-time analytics dashboard he built has been instrumental in our 40% revenue increase. Outstanding technical expertise and project management.",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
       location: "Singapore"
     },
@@ -17,7 +17,7 @@ export function ReviewsSection() {
       role: "CTO",
       company: "RetailFlow Inc",
       rating: 5,
-      review: "Working with Gary was exceptional. He delivered a complex microservices architecture that reduced our API latency by 40% and eliminated our scaling issues. His expertise in Node.js and AWS is top-notch.",
+      review: "Working with Austin was exceptional. He delivered a complex microservices architecture that reduced our API latency by 40% and eliminated our scaling issues. His expertise in Node.js and AWS is top-notch.",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face", 
       location: "United States"
     },
@@ -26,7 +26,7 @@ export function ReviewsSection() {
       role: "Product Manager",
       company: "InnovateTech HK",
       rating: 5,
-      review: "Gary's AI recommendation system increased our average order value by 30%. His ability to blend machine learning with practical e-commerce solutions is remarkable. Highly professional and results-driven.",
+      review: "Austin's AI recommendation system increased our average order value by 30%. His ability to blend machine learning with practical e-commerce solutions is remarkable. Highly professional and results-driven.",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
       location: "Hong Kong"
     },
@@ -35,7 +35,7 @@ export function ReviewsSection() {
       role: "Lead Developer",
       company: "DigitalCraft Studios",
       rating: 5,
-      review: "Gary's React optimization work improved our page load speed by 35%. His systematic approach to performance enhancement and attention to detail is impressive. Great communication throughout the project.",
+      review: "Austin's React optimization work improved our page load speed by 35%. His systematic approach to performance enhancement and attention to detail is impressive. Great communication throughout the project.",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
       location: "Australia"
     },
@@ -44,7 +44,7 @@ export function ReviewsSection() {
       role: "Operations Manager", 
       company: "SmartCommerce Ltd",
       rating: 5,
-      review: "The Python automation scripts Gary developed save us 15+ hours monthly. His ERP-Shopify integration eliminated manual data entry completely. Exceptional problem-solving skills and reliable delivery.",
+      review: "The Python automation scripts Austin developed save us 15+ hours monthly. His ERP-Shopify integration eliminated manual data entry completely. Exceptional problem-solving skills and reliable delivery.",
       avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
       location: "Canada"
     },
@@ -53,7 +53,7 @@ export function ReviewsSection() {
       role: "Founder",
       company: "NextGen E-commerce",
       rating: 5,
-      review: "Gary built our complete tech stack from scratch - React frontend, Node.js backend, and AWS deployment. The checkout flow optimization reduced cart abandonment by 25%. Highly recommend!",
+      review: "Austin built our complete tech stack from scratch - React frontend, Node.js backend, and AWS deployment. The checkout flow optimization reduced cart abandonment by 25%. Highly recommend!",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
       location: "South Korea"
     }
